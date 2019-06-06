@@ -67,3 +67,9 @@ group :test do
   # Easy installation and use of chromedriver to run system tests with Chrome
   # gem 'chromedriver-helper'
 end
+
+group :production do
+
+  # Use pg as the database in production environment
+  gem 'pg', '~> 1.1.3'
+end
